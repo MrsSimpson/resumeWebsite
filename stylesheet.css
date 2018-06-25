@@ -1,11 +1,19 @@
 @import url(https://fonts.google.com/specimen/Kaushan+Script);
 
+
+    html {
+        background-color: #000000;
+    }
+
 	#top-menu li	{
-   			 display: inline-block;
+   	        display: inline-block;
+            color: #CCB5A5;
+            padding: 5px 50px;
+            text-decoration: none;
 		}	
 		
     #top-menu ul	{
-            position: sticky;
+            position: fixed;
             text-align: center;
             font-family: 'Kaushan Script', cursive;
             font-size: 20px;
@@ -14,11 +22,12 @@
             margin: 0;
             padding: 5;
 			background-color: #333;
+        
 		}
 
     #top-menu li a {
             display: inline-block;
-            color: #CCB5A5; 
+            color: #CCB5A5;
             padding: 20px 50px;
             text-decoration: none;
         }
@@ -27,28 +36,55 @@
             background-color: #111;
         }
 
-body .home {
+    body .home {
         
-        opacity: 0.6;
-        
-}
-
-    html	{
-			background: black url(coffee_beans_keyboard.jpeg) no-repeat;
+    	    background: black url(coffee_beans_keyboard.jpeg) no-repeat;
 			background-position: center;
-            background-size: auto;
             height: auto;
-		}
+            width: 100%;
+        }
+
 	
     .home h1	{
+            opacity: 0.8;
             text-align: left;
             color: #EBE9EA;
 			font-family: 'Kaushan Script', cursive;
 			font-size: 100px;
 		}
+
     .home h4 {
+            opacity: 0.8;
             text-align: right;
 			color: #BAA393;
 			font-family: 'Kaushan Script', cursive;
 			font-size: 50px;
         }
+
+    #about {
+        
+            background: black url(aroma-aromatic-batch.jpg) no-repeat;
+			background-position: center;
+            background-size: 100%;
+
+                     
+    }
+
+    #about h2{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 40px;
+        color: #EBE9EA;
+    }
+
+    #about p
+    {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 25px;
+        color: #EBE9EA;
+    }
+
+    .portfolio h3 {
+        font-family: 'Kaushan Script', cursive;
+        font-size: 25px;
+        color: #EBE9EA;
+    }
