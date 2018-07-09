@@ -12,7 +12,7 @@ html {
     
 }
 
-#header li	{
+#header li {
    	    display: inline-block;
         color: #CCB5A5;
         padding: 5px 50px;
@@ -43,6 +43,11 @@ html {
         background-color: #000000;
 }
 
+#footer {
+    padding: 50px 50%;
+}
+
+
 body .home {
         background: black url(coffee_beans_keyboard.jpeg) no-repeat;
         background-position:center;
@@ -53,7 +58,7 @@ body .home {
         padding-top: 5px;
 }
 	
-.home h1	{
+.home h1 {
         opacity: 0.8;
         text-align: center;
         position: fixed;
@@ -83,15 +88,14 @@ body .home {
         float: left;
 }
 
-.about h2{
+.about h2 {
         padding-top: 30px;
         font-family: 'Kaushan Script', cursive;
         font-size: 40px;
         color: #EBE9EA;
 }
 
-.about p
-    {
+.about p {
         font-family: 'Kaushan Script', cursive;
         font-size: 22.75px;
         color: #EBE9EA;
@@ -108,25 +112,52 @@ body .home {
         float: right;
 }
 
-.portfolio {
-        height: 85%;
+.resume {
+        height: 10%;
         width: 100%;
         padding: 20px;
         margin: 10px;       
 }
 
-.portfolio h3 {
+.resume h3 {
         font-family: 'Kaushan Script', cursive;
         text-align: center;
         font-size: 25px;
         color: #EBE9EA;
 }
     
-.portfolio a {
+.resume a {
         color: #CCB5A5;
 }
 
-.portfolio a:hover {
+.resume a:hover {
     background-color: darkgrey;
 }
+
+.projects {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #AC9586;
     
+}
+
+.community {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    background color:aquamarine;
+}
+
+#contact h3 {
+     font-family: 'Kaushan Script', cursive;
+        text-align: center;
+        font-size: 25px;
+        color: #EBE9EA;
+}
+
+#contact a {
+    color: #CCB5A5
+}
