@@ -9,6 +9,7 @@ resumeWebsite
  
  tools used:
  -------------
- * HTML
- * CSS
- * JavaScript
+ * HTML5
+ * CSS3
+ * JavaScript/jQuery
+ * PHP
