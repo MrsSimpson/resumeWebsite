@@ -1,7 +1,7 @@
-<?php include "header.php" ?>
+<?php include "../documents/header.php" ?>
 
 	<div class="resume">
-        <h3><a href="Lacy_Simpson_06.20.2018 updated Resume copy.pdf"> My PDF Resume </a></h3>
+        <h3><a href="../documents/lacy_simpson_resume.pdf"> My PDF Resume </a></h3>
     </div>
     <div class="portfolio">
         <div class="experience">
@@ -68,6 +68,4 @@
     </div>     
     
     </div>
-</body>
-
-</html>
+    <?php include "../documents/footer.php" ?>
