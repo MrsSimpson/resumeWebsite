@@ -44,12 +44,18 @@ html {
 }
 
 #footer {
-    padding: 50px 50%;
+    
+    color: #EBE9EA;
+    display: inline;
+    text-align: center;
+    font-size: 15px;
 }
 
 
+
 body .home {
-        background: black url(coffee_beans_keyboard.jpeg) no-repeat;
+        background: black url(../images/coffee_beans_keyboard.jpeg) no-repeat;
+        margin-top: 70px;
         background-position:center;
         height: 500px;
         background-size: 100%;           
@@ -79,48 +85,51 @@ body .home {
 
 .about {
         
-        background: black url(wood-1700562_960_720.jpg) no-repeat;
+        background: black url(../images/wood-1700562_960_720.jpg) no-repeat;
         background-position: center;
-        background-size: auto;                
-        height: auto;
-        width: 45%;
-        padding-left: 10px;
+        height: 600px;
+        background-size: 100%;           
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 5px;
+        
+
+}
+.about img 
+{
         float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        padding: 10px;
 }
 
-.about h2 {
-        padding-top: 30px;
+.about h1 {
+        padding-top: 40px;
         font-family: 'Kaushan Script', cursive;
         font-size: 40px;
         color: #EBE9EA;
+        text-align: center;
 }
 
 .about p {
         font-family: 'Kaushan Script', cursive;
         font-size: 22.75px;
         color: #D2CDCB;
+        margin: 10px;
+        padding: 10px;
 }
-.profile_pic {
-        margin-top: 20px;
-        width: 50%;
-        float: right;
-}
-
-.profile_pic img {
-        max-width: 100%;
-        max-height: 100%;
-        float: right;
+.about footer {
+        text-align: none;
 }
 
 .portfolio {
-    background: black url(wood-1700562_960_720.jpg) repeat-y;
-
+    background: black url(../images/wood-1700562_960_720.jpg) repeat-y;
     background-size:contain;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 20px;
     margin-top: auto;
     word-wrap: break-word;
-    font-family: 'Kaushan Script', cursive;
     text-align: center;
     font-size: 20px;
     color: #EBE9EA;
@@ -148,6 +157,10 @@ body .home {
     background-color: darkgrey;
 }
 
+.skills {
+        float: center;
+        clear: right;
+}
 .experience {
     text-align: left;
     padding-bottom: 10px;
@@ -178,7 +191,6 @@ body .home {
 .projects  {
     text-align: left;
     word-wrap: break-word;
-    text-align: left;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 10px;
@@ -202,8 +214,7 @@ body .home {
     height: auto;
     width: 100%;
     padding: 20px;
-    margin: 10px;
-   
+    margin: 10px; 
     
 }
 
@@ -212,24 +223,56 @@ body .home {
     width: 100%;
     padding: 20px;
     margin: 10px;
-    background-color:aquamarine;
 }
 
 #contact {
-    background: black url(wood-1700562_960_720.jpg) no-repeat;
+    background: black url(../images/wood-1700562_960_720.jpg) no-repeat;
     background-position:center;
     background-size: cover;
     height: 80%;
+    margin: 20px;
+    padding: 20px;
     font-family: 'Kaushan Script', cursive;
 }
 
-#contact h3 {
+#contact h2 {
      font-family: 'Kaushan Script', cursive;
         text-align: center;
-        font-size: 25px;
+        font-size: 40px;
         color: #EBE9EA;
 }
 
 #contact a {
     color: #CCB5A5
+}
+
+#contactform {
+        width: 100%;
+        padding: 20px;
+        font-size: 25px;
+        color: #EBE9EA;
+        float: both;
+        text-align: center;
+}
+#contactform h1 {
+        text-align: center;
+}
+
+.inputField {
+        margin: 10px;
+        width: 500px;
+        padding: 10px;
+}
+
+.textAreaInput{
+        width: 500px;
+        height: 200px;
+        margin: 10px;
+}
+
+.submitButton{
+        padding: 10px;
+        width: 100px;
+        text-transform:uppercase;
+        border-radius:2px;
 }
