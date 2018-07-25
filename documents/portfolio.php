@@ -7,18 +7,18 @@
         <div class="skills">
             <h1>Skills And Programming Languages</h1>
             <p>
-                Server Side: 
+                <strong>Server Side:</strong> 
                 C++     |
                 Java    |
                 C#      |
                 Visual Basic    |
                 Swift       |
                 PHP<br>
-                Client Side:
+                <strong>Client Side:</strong>
                 HTML5  |
                 CSS3 |
                 JavaScript<br>
-                Database: 
+                <strong>Database:</strong> 
                 MySQL   |
                 Microsoft SQL Server |
                 Firebase            
