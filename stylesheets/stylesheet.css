@@ -66,9 +66,9 @@ body .home {
 	
 .home h1 {
         opacity: 0.8;
-        text-align: center;
-        position: fixed;
-        padding-top: 0;
+        text-align: left;
+        margin: 5px;
+        padding-left: 5px;
         color: #EBE9EA;
         font-family: 'Kaushan Script', cursive;
         font-size: 120px;
@@ -76,11 +76,12 @@ body .home {
 
 .home h4 {
         opacity: 0.8;
-        text-align: right;
+        text-align: center;
         color: #BAA393;
-        padding-top: 0;
+        margin: 5px;
+        padding-bottom: 50px;
         font-family: 'Kaushan Script', cursive;
-        font-size: 50px;
+        font-size: 55px;
 }
 
 .about {
@@ -138,12 +139,11 @@ body .home {
 .resume {
         height: 10%;
         width: 100%;
-        padding: 20px;
+        padding-top: 50px;
         margin: 10px;       
 }
 
 .resume h3 {
-        font-family: 'Kaushan Script', cursive;
         text-align: center;
         font-size: 25px;
         color: #EBE9EA;
@@ -157,7 +157,8 @@ body .home {
     background-color: darkgrey;
 }
 
-.skills {
+.skills p{
+        font-size: 25px;
         float: center;
         clear: right;
 }
